@@ -33,6 +33,9 @@
             border-radius: 5px;
         }
         .code-block {
+            direction: ltr;
+            text-align: left;
+            unicode-bidi: embed;
             background: #333;
             color: #fff;
             padding: 10px;
@@ -69,33 +72,65 @@
         
         <div class="step">
             <h2>الخطوة 1: تنزيل البرنامج</h2>
-            <p>قم بزيارة الموقع الرسمي وقم بتنزيل أحدث إصدار:</p>
-            <div class="code-block">https://example.com/download</div>
-            <img src="images/download.png" alt="تنزيل البرنامج">
+            <p>1. قم بزيارة الموقع الرسمي فايرفوكس نايتلي وقم بتنزيل أحدث إصدار:</p>
+            <div class="code-block">https://www.mozilla.org/en-US/firefox/channel/desktop</div>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step1/photo_2025-02-12_12-24-49.jpg?raw=true" alt="تنزيل البرنامج">
+            <div class="note">والتي سوف تظهر لكم الصفحة كما فوق في صورة.</div>
+            <hr/>
+            <p>2. يرجى منكم الانتقال إلى جزء الذي يحتوي على تحميل فايرفوكس نايتلي والضغط على زر تحميل وتسجيله في سطح المكتب :</p>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step1/photo_2025-02-12_12-29-39.jpg?raw=true" alt="تنزيل البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step1/photo_2025-02-12_12-32-35.jpg?raw=true" alt="تنزيل البرنامج">
+            <div class="note">الأن إنتهينا من التحميل بنجاح.</div>
         </div>
 
         <div class="step">
-            <h2>الخطوة 2: تثبيت البرنامج</h2>
-            <p>قم بتشغيل ملف التثبيت واتبع التعليمات الظاهرة على الشاشة.</p>
-            <div class="note">تأكد من أن لديك صلاحيات المسؤول.</div>
-            <img src="images/install.png" alt="تثبيت البرنامج">
+            <h2>الخطوة 2: ثثبيت فايرفوكس نايتلي</h2>
+            <p>قم بتشغيل ملف التثبيت واتبع التعليمات الظاهرة كما في صور التالية:</p>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step2/photo_2025-02-12_14-12-45.jpg?raw=true" alt="تثبيت البرنامج">
+            <div class="note">عند فتح ملف الثثبيت سيطلب منك صلاحيات مسؤول إضغط على نعم.</div>
+            <hr/>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step2/photo_2025-02-12_12-36-33.jpg?raw=true" alt="تثبيت البرنامج">
+            <div class="note">سوف تظهر لك نافذة التثبيت، إنتظر حتى ينتهي.</div>
+            <hr/>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step2/photo_2025-02-12_12-37-21.jpg?raw=true" alt="تثبيت البرنامج">
+            <div class="note">كما ترون في الصورة تم التثبيت بنجاح.</div>
         </div>
 
         <div class="step">
-            <h2>الخطوة 3: التحقق من التثبيت</h2>
-            <p>افتح نافذة الأوامر وقم بتشغيل الأمر التالي:</p>
-            <div class="code-block">program --version</div>
-            <div class="note">إذا ظهر رقم الإصدار، فقد تم التثبيت بنجاح.</div>
-            <img src="images/verify.png" alt="التحقق من التثبيت">
+            <h2>الخطوة 3: ضبط إعدادات فايرفوكس نايتلي</h2>
+            <p>1. افتح نافذة جديدة في فايرفوكس نايتلي واتبع التعليمات الظاهرة كما في صور التالية:</p>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step3/photo_2025-02-12_12-44-16.jpg?raw=true" alt="التحقق من التثبيت">
+            <hr/>
+            <p>2. ابحث عن الكلمة تالية في شريط البحث كما يظهر في صورة الأسفلية:</p>
+            <div class="code-block">about:config</div>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step3/photo_2025-02-12_12-46-34.jpg?raw=true" alt="التحقق من التثبيت">
+            <hr/>
+            <p>3. ابحث عن الكلمة تالية في شريط البحث و اضغط على زر "Toggle" كما يظهر في صور الأسفلية:</p>
+            <div class="code-block">xpinstall.signatures.required</div>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step3/photo_2025-02-12_12-53-29.jpg?raw=true" alt="التحقق من التثبيت">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step3/photo_2025-02-12_12-54-08.jpg?raw=true" alt="التحقق من التثبيت">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step3/photo_2025-02-12_13-10-50.jpg?raw=true" alt="التحقق من التثبيت">
+            <div class="note">يرجى التأكد على أنها أصبحت "false".</div>
         </div>
 
         <div class="step">
-            <h2>الخطوة 4: تكوين البرنامج</h2>
-            <p>قم بتعديل ملف الإعدادات الموجود في:</p>
-            <div class="code-block">C:\Program Files\Program\config.ini</div>
-            <p>أو في لينكس:</p>
-            <div class="code-block">/etc/program/config.ini</div>
-            <img src="images/configure.png" alt="تكوين البرنامج">
+            <h2>الخطوة 4: تثبيت AutoBot BLS و Proxy Manager By Autobot</h2>
+            <p>يرجى منك إتباع الخطوات في الصور التالية لتثبيت اوتوبوت في الفايرفوكس نايتلي:</p>
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-00-33.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-01-10.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-01-44.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-02-11.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-03-00.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-04-34.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-05-09.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-06-23.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-06-59.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-07-35.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-09-01.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-09-30.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-11-41.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-14-22.jpg?raw=true" alt="تكوين البرنامج">
+            <img src="https://github.com/geckoy/installingAutobot/blob/main/assets/step4/photo_2025-02-12_13-14-48.jpg?raw=true" alt="تكوين البرنامج">
         </div>
 
         <footer>دليل التثبيت &copy; 2025</footer>
